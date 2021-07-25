@@ -1,2 +1,10 @@
 # Titanic_Charts
-App that reads the titanic dataset 
+App that reads the titanic dataset to :
+
+1- Display the passengers ages in a bar and pie chart
+
+2- Display the titanic classes in pie chart
+
+3- Display the survived and unsurvived passengers in pie chart
+
+4- Display which embarked that the passengers board the ship
