@@ -41,7 +41,7 @@ public class XChartExamples {
 		List<TitanicPassenger> allPassengers = new ArrayList<>();
 		ObjectMapper objectMapper = new ObjectMapper();
 		objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-		try (InputStream input = new FileInputStream("C:\\ITI\\Java\\Day 4\\Maven Project 1\\Session6Xchart\\titanic_csv.json")) {
+		try (InputStream input = new FileInputStream("src/main/resources/titanic_csv.json")) {
 			allPassengers = objectMapper.readValue(input, new TypeReference<List<TitanicPassenger>>() {
 			});
 		} catch (IOException ex) {
